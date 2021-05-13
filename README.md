@@ -1,84 +1,5 @@
 # ReCapProject
-### Bu proje eğitim boyunca gelişmemi gösteren bir projedir. 2 aylık Back-end eğitimi ile projemi katmanlı mimariye ve SOLID prensiblerine uygun olarak geliştirdim. Projem de Entity Framework, Fluent Validation, AOP, OOP, Cross Cutting Concerns, WebApi, Autofac, Extensions, Authorization kısımları göreceksiniz.
-
-# Araç Kiralama Sistemi
-![banner resmi](https://github.com/alifurknaksu/ReCapProject/blob/master/WebAPI/CarImages/MercedesAmgGt-S.jpeg)
-
-
-### 🔊 PROJE OLUŞTURULDU(30.01.2021)
-
-⚪ Entities, DataAccess, Business ve Console katmanlarını oluşturuldu.
-
-⚪ 'Car' nesnesi oluşturuldu.
-
-⚪ Id, BrandId, ColorId, ModelYear, DailyPrice, Description özellikleri eklendi.
-
-⚪ InMemory formatta GetById, GetAll, Add, Update, Delete oprasyonlarını yazıldı
-
-
-### 🔊 GÜNCELLEME(03.02.2021)
-
-⚪ Brand ve Color nesneleri ekleyindi.
-
-⚪ Sql Server tarafında yeni bir veritabanı kurunuz. Cars,Brands,Colors tablolarını oluşturuldu.
-
-⚪ Sisteme Generic IEntityRepository altyapısı yazıldı.
-
-⚪ Car, Brand ve Color nesneleri için Entity Framework altyapısını yazıldı.
-
-⚪ GetCarsByBrandId , GetCarsByColorId servislerini yazıldı ve kurallar eklendi.
-
-
-### 🔊 GÜNCELLEME(06.02.2021)
-
-⚪ Core katmanı oluşturuldu.
-
-⚪ IEntity, IDto, IEntityRepository, EfEntityRepositoryBase dosyaları eklendi.
-
-⚪ Car, Brand, Color sınıflarınız için tüm CRUD operasyonlarını hazır hale getirildi.
-
-
-### 🔊  GÜNCELLEME(10.02.2021)
-
-⚪ Core katmanında Results yapılandırması oluşturuldu.
-
-⚪ Business sınıfları bu yapıya göre refactor edildi.
-
-⚪ Users, CUstomers ve Rentals tabloları oluşturuldu.
-
-⚪ Entityler eklendi, CRUD operasyonları yazıldı ve test edildi.
-
-### 🔊  GÜNCELLEME(13.02.2021)
-
-⚪ WebApi katmanı kuruldu.
-
-⚪ Business tarafındaki servisleri Api karşılığı yazıldı.
-
-### 🔊  GÜNCELLEME(17.02.2021)
-
-⚪ Autofac desteği eklendi.
-
-⚪ FluentValiidation desteği eklendi.
-
-⚪ AOP desteği eklendi.
-
-⚪ ValidationAspect eklendi.
-
-### 🔊  GÜNCELLEME(24.02.2021)
-
-⚪ CarImages (Araba Resimleri) tablosu oluşturuldu.
-
-⚪ Api üzerinden arabaya resim ekleyecek sistem yazıldı.
-
-⚪ Resim silme, güncelleme yetenekleri eklendi.
-
-### 🔊  GÜNCELLEME(28.02.2021)
-
-⚪ JWT entegrasyonu eklendi.
-
-### 🔊  GÜNCELLEME(01.03.2021)
-
-⚪ Cache, Transaction ve Performance aspectlerini eklendi.
+### Bu proje eğitim boyunca gelişmemi gösteren bir projedir. 2 aylık Back-end eğitimi ile projemi katmanlı mimariye ve SOLID prensiblerine uygun olarak geliştirdim. Projemde Entity Framework, Fluent Validation, AOP, OOP, Cross Cutting Concerns, WebApi, Autofac, Extensions, Authorization kısımları göreceksiniz.
 
 ## BRANDS                                    
 | BrandId      | BrandName    |                
@@ -95,7 +16,7 @@
 | 10           | Opel         | 
 
 ## COLORS                                   
-| BrandId      | BrandName    |                
+| ColorId      | ColorName    |                
 | :---         | :---         |                
 | 1            | Black        |                
 | 2            | White        | 
